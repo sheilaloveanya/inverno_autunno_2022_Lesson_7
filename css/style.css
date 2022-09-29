@@ -1,0 +1,117 @@
+
+@import "reset.css";
+
+
+@font-face {
+	font-family: "Montserrat";
+	src: url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+
+}
+
+@font-face {
+	font-family: "Playfair Display";
+	src: url("../fonts/PlayfairDisplay-Medium.woff2") format("woff2"), url("../fonts/PlayfairDisplay-Medium.woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+
+}
+
+@font-face {
+	font-family: "Playfair Display";
+	src: url("../fonts/PlayfairDisplay-BoldItalic.woff2") format("woff2"), url("../fonts/PlayfairDisplay-BoldItalic.woff");
+	font-weight: 700;
+	font-style: italic;
+	font-display: swap;
+
+}
+
+
+[class*="__conteiner"]{
+	max-width: 1200px;
+	margin: 0 auto;
+	background-color: blueviolet;
+	padding: 15px;
+	
+}
+h1,h2,h3,h4,h5,h6 {
+	text-align: center;
+	font-family: "Playfair Display", serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.header__conteiner,
+.about-us__conteiner,
+.block__conteiner,
+.block-two__conteiner,
+.block-three__conteiner{
+	font-family: "Playfair Display", serif;
+	font-weight: 500;
+	font-style: normal;
+
+}
+
+
+.header__conteiner{
+	background-color: plum;
+	padding-left: 300px;
+	background-image: url('../icons/01.jpeg');
+	background-repeat: no-repeat;
+	margin-bottom: 50px;
+	border-radius: 30px;
+	
+}
+
+.about-us__conteiner{
+	padding-left: 690px;
+	background-image: url("../img/23.jpeg");
+	background-position: 80px ;
+	background-repeat: no-repeat;background-color: yellow;
+	margin-bottom: 50px;
+}
+
+
+.advantages__conteiner {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	max-width: 1150px;
+	background-image: url("../img/22.jpeg");
+	background-repeat: no-repeat;
+	min-height: 500px;
+	background-position: center;
+	background-size: cover;
+	margin-bottom: 50px;
+
+}
+
+.block__conteiner {
+	background-color: aquamarine;
+	background-position: right;
+	padding-right: 600px;
+	margin-bottom: 50px;
+	background-image: url("../img/24.jpeg");
+	background-repeat: no-repeat;
+}
+
+
+
+.block-two__conteiner{
+	background-image: url("../img/20.jpeg");
+	background-repeat: no-repeat;
+	width: 600px;
+	margin-bottom: 50px;
+}
+
+.block-three__conteiner{
+	background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,70,121,0.5088629201680672) 35%, rgba(0,212,255,1) 55%);
+	margin-bottom: 50px;
+	
+}
+
